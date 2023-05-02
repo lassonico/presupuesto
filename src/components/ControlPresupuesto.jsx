@@ -32,13 +32,13 @@ const ControlPresupuesto = ({gastos, setGastos, presupuesto, setPresupuesto, set
             setIsValidPresupuesto(false);
         }
     }
-
+    
   return (
     <div className='contenedor-presupuesto contenedor sombra dos-columnas'>
         <div>
             <CircularProgressbar
                 styles={buildStyles({
-                    pathColor: porcentaje < 0 ? "#e74c3c" : "#0c6c8e" && porcentaje < 20 ? "#e67e22" : "#0c6c8e",
+                    pathColor: porcentaje < 0 ? "#e74c3c" : "#32ce03" && porcentaje < 20 ? "#e67e22" : "#32ce03",
                     trailColor: porcentaje < 0 ? "#e74c3c" : "#f5f5f5",
                     textColor: porcentaje < 0 ? "#e74c3c" : "#0c6c8e" && porcentaje < 20 ? "#e67e22" : "#29bbef"
                 })}
